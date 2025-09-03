@@ -1,0 +1,242 @@
+html, body {
+    min-height: 100%;
+}
+
+h1{
+    color: white;
+}
+
+header{
+    text-align: center;
+    background-color: black;
+    padding-top: 5px;
+}
+
+header ul{
+    padding-left: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    text-align: center;
+    background-color: black;
+}
+
+header li{
+    list-style: none;
+    color: lightblue;
+    display: inline-block;
+    margin: 0 1em;
+}
+
+header a{
+    color: lightblue;
+    padding-right: 100px;
+    text-decoration: none;
+}
+
+header a:hover{
+    color: lightyellow;
+}
+
+.especifico{
+    color: white;
+}
+
+body {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/800px-Flag_of_Argentina.svg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, .8);
+    text-align: justify;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.explicacao{
+    font-size: 20px;
+}
+
+section{
+    display: grid;
+    grid-template-columns:  1fr 2fr;
+    align-items: center;
+    background-color: rgba(255, 255, 255, .8);
+    border: 1px solid black;
+    margin: 5%;
+}
+
+.sem-cor{
+    background: none;
+    border: none;
+}
+.contrario{
+    display: grid;
+    grid-template-columns:  2fr 1fr;
+}
+
+section img {
+    max-width: 400px;
+    max-height: 300px;
+}
+
+.comparacao{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.img-left{
+    order: 1;
+    padding: 100px;
+}
+
+.text-right{
+    order: 2;
+    padding-right: 100px;
+}
+
+.img-right{
+    order: 2;
+    padding: 100px;
+}
+
+.text-left{
+    order: 1;
+    padding-left: 100px;
+}
+
+p {
+    text-align: justify;
+}
+
+.img-table{
+    max-width: 100px;
+    max-height: 200px;
+}
+
+td, th {
+    padding: 3px 10px;
+}
+
+thead, tfoot {
+    background-color: lightsteelblue;
+    border: 1px solid black;
+}
+
+ul {
+    text-align: justify;
+    margin-right: 20%;
+    background-color: rgba(255, 255, 255, .7);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.ul-stats{
+    font-size: 20px;
+}
+
+#img-stats{
+    order: 1;
+    padding: 200px;
+}
+
+.centro {
+    text-align: center;
+}
+
+caption {
+    background-color: lightblue;
+}
+
+caption strong{
+    color: black;
+}
+
+footer{
+    clear: left;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    display: inline-block;
+    width: 99.5%;
+}
+
+footer a{
+    float: right;
+    color: lightblue;
+    background-color: white;
+    border: 5px lightblue solid;
+    border-radius: 10px;
+    padding: 15px 25px 15px 25px;
+    margin: 10px;
+}
+
+.atencao::before{
+    content: "Atenção!";
+    color: white;
+    background-color: blue;
+    padding: 0.25em;
+    border-radius: 0.25em;
+}
+
+strong{
+    color: lightblue;
+}
+
+em{
+    color: red;
+}
+
+.troca{
+    padding-bottom: 30px;
+}
+    
+.botao{
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.vitoria{
+    color: rgb(103, 172, 0);
+    text-align: center;
+    opacity: 0;
+    font-size: 30px;
+}
+
+@keyframes opaco {
+    0% {opacity: 0%;}
+    100% {opacity: 1;}   
+}
+
+iframe{
+    display: block;
+    margin: 0 auto;
+    padding: 100px;
+    border: none;
+}
+
+p, li, td, thead, tfoot, caption{
+    font-family: "Saira", sans-serif;
+}
+
+h1, h2, h3{
+    font-family: "Vend Sans", sans-serif;
+}
+
+.codigo{
+    max-width: 800px;
+    max-height: 400px;
+}
